@@ -41,10 +41,4 @@ class Menu {
             SimpanData[index] = Menu(id: id, judul: judul, harga: harga, deskripsi: deskripsi);
         }
     }
-
-    // Menu(.fromJson(Map<String, dynamic> json))
-    //     : id = json['id'],
-    //       judul = json['judul'],
-    //       harga = json['harga'],
-    //       deskripsi = json['deskripsi'];
 }
